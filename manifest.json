@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+   
+    "name": "Project V Ranks Visible",
+    "version": "1.0.0",
+    "description": "Adds a small icon of the current rank the players of a team have.",
+    "permissions": [
+        "tabs",
+        "scripting",
+        "debugger"
+    ],
+    "host_permissions": [
+        "https://projectv.gg/*",
+        "https://api.kyroskoh.xyz/*"
+      ],
+    "background": {
+        "service_worker": "content.js"
+    }   
+  }
