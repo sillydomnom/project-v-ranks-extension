@@ -12,3 +12,4 @@ The next planned features are:
 
 - Adding the Ranking BAdge on the profile page
 - Refactor code in a more understandable-ish way
+- Change Unstable Code that checks all network requests to a less intrusive functionality
